@@ -5,12 +5,33 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script>
+
+        function mensaje(){
+          alert("Hola Wapo");
+  }
+
+        function vercondicion(){
+          var numero = 1;
+          var mensaje = "";
+
+          if (numero > 10){
+            mensaje = "Mi numero es mayor que 10";
+          }
+          else{
+            mensaje = "El numero es menor o igual a 10";
+          }
+
+        var contenedor = ducument.getElementById('condicion');
+        contenedor.innerHTML = mensaje;
+      }
+  </script>
   </head>
-  <body>
-  
+  <body onload="vercondicion()">
+  <div id="condition"></div>
+  <input type="button" value="mensaje" onclick="mensaje()">
     <nav class="navbar navbar-expand-md navbar-light md-light">
       <a class="navbar-brand" href="#">Menu</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

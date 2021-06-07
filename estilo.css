@@ -1,0 +1,102 @@
+.fondo 
+   {background-color: bisque;
+    background-image:url('WIN_20210519_21_03_15_Pro.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center
+    }
+    
+.contenedor1 {
+        display: inline-block;
+        height: 300px;
+        left: 50px;
+        right: 150px;
+        position: center;
+        top: 150px;
+        background-color: transparent;
+    }
+
+
+h1 { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 34px;
+    color: burlywood;
+    padding: 16px;
+    text-align: left;
+    background-color: darkolivegreen;
+    background-color: darkorange;
+}
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 237, 158);
+    background-color: darkolivegreen;
+}
+
+nav{ margin: 0;
+     padding: 0;
+    background-color: darkcyan;
+}
+
+
+-----menu----
+
+.nav {
+    position:relative;
+    top: 50px;
+    left: 0;
+    width: 100%;
+}
+
+.menu {
+    list-style: none;
+    
+
+}
+
+.links {
+    display: block;
+    padding: 15px;
+    background: orange;
+    text-decoration: none;
+    color: blue;
+
+}
+
+.links:hover {
+    background: white;
+    color: orange;
+}
+
+----------------------------------
+@media (min-width:500px) {
+
+    img {
+        margin-top: 0;
+    }
+
+    .menu li {
+        display: inline-block;
+    }
+.banner_inicio {
+    top: 100px   
+}
+
+.contenedor1 {
+    display: inline-block;
+    height: 300px;
+    left: 10px;
+    right: 150px;
+    position: absolute;
+    top: 150px;
+    background-color: transparent;
+}
+
+.banner_titulo  {
+    background: transparent;
+}
+
+.banner_txt {
+    background: transparent;
+}
