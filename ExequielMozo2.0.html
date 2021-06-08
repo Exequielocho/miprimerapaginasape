@@ -8,7 +8,28 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/PagBienEcha.js"></script> 
+    <script>
+    $(ducument).ready(function(){
+               $(".texto").mouseenter(function(){
+                 $(this).css("background-color", "#cccccc");
+               });
+
+               $(".texto").mouseout(function(){
+                  $(this).css("background-color", "#888888");
+               });
+
+               $(".texto").click(function(){
+                 $(this).css("background-color", "teal");
+               });
+              });   
+               </script>
+
+
+
+
+
     <script>
 
       function mensaje(){
@@ -86,11 +107,11 @@
                 </div>
                 <div class="col-12 col-md-8 col-lg-10">
                     <h2 class="banner_titulo">¿Cual es mi proposito cada mañana?</h2>
-                  -.En la mañana me despierto con ganas de ser mejor que ayer para construir mi camino a ser una persona lo suficientemente sustentable como para un dia tener una familia.
+                  <p class="texto">-.En la mañana me despierto con ganas de ser mejor que ayer para construir mi camino a ser una persona lo suficientemente sustentable como para un dia tener una familia.</p>
 
-                    Tengo muchas capacidades pero soy muy disperso y a la vez nada me llena, me gustaria saber primero que todo para que soy bueno.
+                    <p class="texto">muchas capacidades pero soy muy disperso y a la vez nada me llena, me gustaria saber primero que todo para que soy bueno.</p>
 
-                    <p>-.Quizas no sea muy bueno en programacion pero se agrega a otra de las tantas cosas que sé pero en las que tengo que mejorar. </p>
+                    <p class="texto">-.Quizas no sea muy bueno en programacion pero se agrega a otra de las tantas cosas que sé pero en las que tengo que mejorar. </p>
                   
                   </div>
               </div>
